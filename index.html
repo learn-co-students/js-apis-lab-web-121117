@@ -3,6 +3,23 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <div>
+    <h3>Here are all the gists</h3>
+      <ul id="userGists">
+
+      </ul>
+  </div>
+
+  <div>
+    <h3>Make a Gist</h3>
+    <!-- <form id="submitGist" action="index.html" method="post"> -->
+      <h5>File Name:</h5><input type="text" name="file_name" value="">
+      <h5>Description:</h5><input type="text" name="description" value="">
+      <h5>Content:</h5><input type="text" name="content" value="">
+      <h5>Token: </h5><input type="text" name="token" value="">
+      <input type="submit" id="submitGist">
+    <!-- </form> -->
+  </div>
 
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
