@@ -2,7 +2,7 @@ $(document).ready(function(){
 });
 
 
-  var toKen = '3a1454f9211ddbb3d0e72f12f7d86881c1d70c6b';
+  var toKen = '';
   var uName = 'djovercash';
 
 
