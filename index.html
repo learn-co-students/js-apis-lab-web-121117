@@ -3,7 +3,20 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-
+  <h2>Create a Gist</h2>
+    <form id="form" action="">
+      File Name:<br />
+      <input type="text" name="fileName" id="fileName"><br>
+      Content:<br />
+      <input type="text" name="content" id="content"><br>
+      Description:<br />
+      <input type="text" name="description" id="description"><br>
+      <input type="submit" value="Submit">
+    </form>
+    <h2>Display Gists</h2>
+    <div id="gists">
+      
+    </div>
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
 </body>
