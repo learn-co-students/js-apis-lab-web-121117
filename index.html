@@ -3,7 +3,18 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+  <ol id="currentGists">
+    
 
+  </ol>
+
+  <form action="index.html" id="gistForm" method="post">
+    <input type="text" name="filename" id="fileName" value="file name">
+    <input type="text" name="description" id="gistDescription" value="description">
+    <input type="text" name="content" id="gistContent" value="content">
+    <input type="text" name="token" id="userToken" value="token">
+    <button type="submit" name="button" id="submit"></button>
+  </form>
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/github_client.js"></script>
 </body>
